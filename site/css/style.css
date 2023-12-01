@@ -15,22 +15,18 @@ h3{
 }
 
 p{
-    color: #0000009c;
+    color: black;
 }
 
-.cabecalho{
-
-}
-
+/*Header*/
 .cabecalho .container{
-    background-color: #4a98f7;
+    background-color: #6ba7ef;
 }
 
 .container{
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 5%;
-    background-color: #c4dcf9;
 }
 
 .botao_contato{
@@ -87,42 +83,33 @@ nav ul a:hover::after{
     width: 100%;
 }
 
-/*Pagina Problema e Solucao*/
-.faca-mais .container{
+/*Paginas Problema e Solução, Home, Demosntração e Solução*/
+.paginas .container{
     display: flex;
     align-items: center;
     background-color: #c4dcf9;
 }
 
-.faca-mais .faca-mais-text{
+.paginas .paginas-text{
     width: 50%;
     padding: 0 40px;
 }
-.faca-mais .faca-mais-text h3{
+.paginas .paginas-text h3{
     font-size: 56px;
 }
 
-.faca-mais .faca-mais-text p{
+.paginas .paginas-text p{
     margin: 5px 0 10px 0;
     text-align: justify;
     color: black;
     font-size: 18px;
 }
 
-.faca-mais-text .botao_entrar_pagina{
-    background-color: #ff6f00;
-    color: white;
-    padding: 12px 20px;
-    border-radius: 10px;
-    cursor: pointer;
-    display: inline-block;
-}
-
-.faca-mais .faca-mais-img{
+.paginas .paginas-img{
     width: 50%;
 }
 
-.faca-mais .faca-mais-img img{
+.paginas .paginas-img img{
     width: 100%;
 }
 
@@ -215,7 +202,7 @@ nav ul a:hover::after{
 }
 
 .feedback p {
-    color: #fff;
+    color: white;
     font-size: 21px;
     font-weight: 600;
 }
@@ -261,8 +248,9 @@ nav ul a:hover::after{
     } 
 }
 
+/*Footer*/
 .footer {
-    background-color: #4f9cf9;
+    background-color: #3690ff;
     text-align: center;
 }
 
